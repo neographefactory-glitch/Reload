@@ -457,6 +457,202 @@
     }
   </style>
 
+  <!-- ═══════════════════════════════════════════
+       SECTION 3 — LA SOLUTION (5 PILIERS)
+  ════════════════════════════════════════════ -->
+  <section class="solution">
+    <div class="solution-inner">
+
+      <!-- Intro -->
+      <p class="section-pretitle">Le programme</p>
+      <h2 class="section-title solution-headline">
+        RELOAD™ · <span class="headline-yellow">5 piliers alignés</span><br>= 5k mensuel de gagnés.
+      </h2>
+
+      <div class="solution-intro">
+        <p class="solution-tagline">RELOAD fonctionne parce qu'on ne rajoute rien.<br><strong>On ré-aligne.</strong></p>
+        <p class="solution-body">
+          Le programme RELOAD™ repose sur 5 piliers fondamentaux.<br>
+          Quand ils sont bancals, ton activité l'est aussi.<br>
+          Quand ils sont alignés, les résultats suivent.
+        </p>
+      </div>
+
+      <!-- 5 piliers -->
+      <div class="pillars">
+
+        <div class="pillar">
+          <span class="pillar-num">01</span>
+          <div class="pillar-content">
+            <span class="pillar-name">Offre</span>
+            <span class="pillar-desc">Claire, lisible, vendable</span>
+          </div>
+        </div>
+
+        <div class="pillar">
+          <span class="pillar-num">02</span>
+          <div class="pillar-content">
+            <span class="pillar-name">Tarifs</span>
+            <span class="pillar-desc">Cohérents avec ta valeur et tes objectifs</span>
+          </div>
+        </div>
+
+        <div class="pillar">
+          <span class="pillar-num">03</span>
+          <div class="pillar-content">
+            <span class="pillar-name">Cible</span>
+            <span class="pillar-desc">Précise, solvable, atteignable</span>
+          </div>
+        </div>
+
+        <div class="pillar">
+          <span class="pillar-num">04</span>
+          <div class="pillar-content">
+            <span class="pillar-name">Prospection</span>
+            <span class="pillar-desc">Simple, régulière, actionnable</span>
+          </div>
+        </div>
+
+        <div class="pillar">
+          <span class="pillar-num">05</span>
+          <div class="pillar-content">
+            <span class="pillar-name">Posture</span>
+            <span class="pillar-desc">Crédible, assumée, professionnelle</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Anti-hype -->
+      <div class="anti-hype">
+        <p>Pas de hacks.</p>
+        <p>Pas de tunnels magiques.</p>
+        <p class="anti-hype-strong">Juste ce qui marche dans la vraie vie.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <style>
+    /* ── SOLUTION SECTION ── */
+    .solution {
+      padding: 80px 5vw;
+      background: var(--bg);
+    }
+
+    .solution-inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .solution-headline {
+      line-height: 1.1;
+      margin-bottom: 36px;
+    }
+
+    .headline-yellow {
+      color: var(--yellow);
+    }
+
+    .solution-intro {
+      margin-bottom: 52px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .solution-tagline {
+      font-size: 1.2rem;
+      color: #d4d4d4;
+      line-height: 1.6;
+    }
+
+    .solution-tagline strong {
+      color: var(--white);
+    }
+
+    .solution-body {
+      font-size: 1rem;
+      color: var(--gray);
+      line-height: 1.8;
+    }
+
+    /* piliers */
+    .pillars {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-bottom: 52px;
+    }
+
+    .pillar {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 22px 24px;
+      background: var(--bg-card);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 6px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+
+    .pillar:hover {
+      border-color: rgba(245,197,24,0.3);
+      background: #232323;
+    }
+
+    .pillar-num {
+      font-family: 'Anton', sans-serif;
+      font-size: 2rem;
+      color: var(--yellow);
+      min-width: 52px;
+      line-height: 1;
+    }
+
+    .pillar-content {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .pillar-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .pillar-desc {
+      font-size: 0.88rem;
+      color: var(--gray);
+      letter-spacing: 0.01em;
+    }
+
+    /* anti-hype */
+    .anti-hype {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top: 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .anti-hype p {
+      font-size: 1.05rem;
+      color: var(--gray);
+    }
+
+    .anti-hype-strong {
+      color: var(--white) !important;
+      font-weight: 700;
+      font-size: 1.15rem !important;
+      margin-top: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .pillar-num { font-size: 1.5rem; min-width: 38px; }
+    }
+  </style>
+
   <script>
     // Countdown to March 29, 2026 midnight (Paris time)
     const deadline = new Date('2026-03-29T23:59:59+02:00').getTime();
