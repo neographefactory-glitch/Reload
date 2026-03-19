@@ -281,6 +281,182 @@
 
   </section>
 
+  <!-- ═══════════════════════════════════════════
+       SECTION 2 — LE PROBLÈME
+  ════════════════════════════════════════════ -->
+  <section class="problem">
+    <div class="problem-inner">
+
+      <p class="section-pretitle">Après plusieurs dizaines de One to One en 2025</p>
+      <h2 class="section-title">Le constat.</h2>
+
+      <!-- 3 vérités -->
+      <div class="truths">
+        <div class="truth-item">
+          <span class="truth-icon">✏️</span>
+          <span>Tu bosses.</span>
+        </div>
+        <div class="truth-item">
+          <span class="truth-icon">♟️</span>
+          <span>Tu as du talent.</span>
+        </div>
+        <div class="truth-item">
+          <span class="truth-icon">🎯</span>
+          <span>Tu as quelques clients.</span>
+        </div>
+      </div>
+
+      <!-- Transition -->
+      <div class="problem-but">
+        <p class="problem-but-label">Et pourtant :</p>
+        <ul class="pain-list">
+          <li><span class="pain-icon">🥵</span> Ton activité est instable</li>
+          <li><span class="pain-icon">🥵</span> Tes prix stagnent</li>
+          <li><span class="pain-icon">🥵</span> Ton offre est floue</li>
+          <li><span class="pain-icon">🥵</span> Tu doutes encore trop souvent</li>
+        </ul>
+      </div>
+
+      <!-- Diagnostic -->
+      <div class="problem-diagnosis">
+        <p class="diagnosis-line first">
+          👉 Le problème ne vient <strong>pas</strong> de ton niveau.
+        </p>
+        <p class="diagnosis-line">
+          👉 Le vrai problème, c'est que <strong>personne ne t'a expliqué</strong> qu'être designer freelance,
+          c'est avant tout gérer une entreprise comme n'importe quelle autre.
+          Et pour qu'elle fonctionne, il faut mettre en place des bases solides et construire un véritable système.
+        </p>
+        <p class="diagnosis-line">
+          👉 Et en ce moment, avec le contexte technologique <em>(bonjour l'IA)</em> et la situation économique
+          <em>(bonjour la crise)</em>, les choses sont encore plus compliquées.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <style>
+    /* ── PROBLEM SECTION ── */
+    .problem {
+      background: #111;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding: 80px 5vw;
+    }
+
+    .problem-inner {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .section-pretitle {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gray);
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-family: 'Anton', sans-serif;
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      margin-bottom: 48px;
+    }
+
+    /* 3 vérités */
+    .truths {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+
+    .truth-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--bg-card);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 8px;
+      padding: 18px 24px;
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+
+    .truth-icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    /* Pourtant */
+    .problem-but {
+      margin-bottom: 48px;
+    }
+
+    .problem-but-label {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--gray);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 20px;
+    }
+
+    .pain-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .pain-list li {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 1.1rem;
+      font-weight: 500;
+      padding-left: 4px;
+    }
+
+    .pain-icon { font-size: 1.3rem; flex-shrink: 0; }
+
+    /* Diagnostic */
+    .problem-diagnosis {
+      border-left: 3px solid var(--yellow);
+      padding-left: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .diagnosis-line {
+      font-size: 1rem;
+      color: #d4d4d4;
+      line-height: 1.75;
+    }
+
+    .diagnosis-line.first {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .diagnosis-line strong {
+      color: var(--white);
+      font-weight: 700;
+    }
+
+    .diagnosis-line em {
+      color: var(--yellow);
+      font-style: normal;
+      font-weight: 600;
+    }
+  </style>
+
   <script>
     // Countdown to March 29, 2026 midnight (Paris time)
     const deadline = new Date('2026-03-29T23:59:59+02:00').getTime();
